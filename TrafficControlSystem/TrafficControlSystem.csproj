@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Extended_Exceptions.cs" />
+    <Compile Remove="HelpfulMethods.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="airplane.png" />
+    <None Remove="img\airplane.png" />
+    <None Remove="img\confirmroute.png" />
+    <None Remove="img\confirmrouteorange.png" />
+    <None Remove="img\icon_close.png" />
+    <None Remove="img\map.jpg" />
+    <None Remove="img\plus.png" />
+    <None Remove="img\plusgreen.png" />
+    <None Remove="img\turnoff.png" />
+    <None Remove="img\turnoffred.png" />
+    <None Remove="turnoffred.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="airplane.png" />
+    <Resource Include="img\airplane.png" />
+    <Resource Include="img\confirmroute.png" />
+    <Resource Include="img\confirmrouteorange.png" />
+    <Resource Include="img\icon_close.png" />
+    <Resource Include="img\map.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\plus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\plusgreen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\turnoff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\turnoffred.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

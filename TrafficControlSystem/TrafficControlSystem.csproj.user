@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Update="AddFlight.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Information.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RandomGenerate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Turnoff.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddFlight.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Information.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RandomGenerate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Turnoff.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
